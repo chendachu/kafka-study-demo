@@ -5,6 +5,9 @@ import org.apache.kafka.clients.producer.*;
 import java.util.Properties;
 import java.util.concurrent.Future;
 
+/**
+ * kafka producer是线程安全的
+ */
 public class ProducerSample {
     private static final String TOPIC_NAME = "defaultTopic";
 

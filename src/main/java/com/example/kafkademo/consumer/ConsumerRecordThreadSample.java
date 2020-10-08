@@ -1,6 +1,5 @@
 package com.example.kafkademo.consumer;
 
-import ch.qos.logback.core.util.TimeUtil;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;

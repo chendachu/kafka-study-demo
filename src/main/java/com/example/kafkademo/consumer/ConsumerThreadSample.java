@@ -14,6 +14,11 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * 多线程处理
+ *
+ * kafka consumer不是线程安全的
+ *
+ *
+ *
  */
 public class ConsumerThreadSample {
     private static final String TOPIC_NAME = "defaultTopic";
